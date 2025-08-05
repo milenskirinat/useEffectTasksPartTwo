@@ -3,6 +3,7 @@ import AutoTimer from "./components/AutoTimer.tsx";
 import OnlineStatus from "./components/OnlineStatus.tsx";
 import UsersList from "./components/UsersList.tsx";
 import SearchableUsers from "./components/SearchableUsers.tsx";
+import WindowSize from "./components/WindowSize.tsx";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <OnlineStatus />
           <UsersList />
           <SearchableUsers />
+          <WindowSize />
         </div>
       </div>
     </>
