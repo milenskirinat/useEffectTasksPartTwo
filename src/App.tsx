@@ -2,6 +2,7 @@ import PageTitleCounter from "./components/PageTitleCounter";
 import AutoTimer from "./components/AutoTimer.tsx";
 import OnlineStatus from "./components/OnlineStatus.tsx";
 import UsersList from "./components/UsersList.tsx";
+import SearchableUsers from "./components/SearchableUsers.tsx";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <AutoTimer />
           <OnlineStatus />
           <UsersList />
+          <SearchableUsers />
         </div>
       </div>
     </>
