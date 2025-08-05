@@ -1,5 +1,6 @@
 import PageTitleCounter from "./components/PageTitleCounter";
 import AutoTimer from "./components/AutoTimer.tsx";
+import OnlineStatus from "./components/OnlineStatus.tsx";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
           </h2>
           <PageTitleCounter />
           <AutoTimer />
+          <OnlineStatus />
         </div>
       </div>
     </>

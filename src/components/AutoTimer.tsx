@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import "./Card.css";
 
 export default function AutoTimer() {
   const [counter, setCounter] = useState(0);
@@ -13,7 +14,7 @@ export default function AutoTimer() {
   }, []);
 
   return (
-    <div>
+    <div className="Card">
       <p>Automatic counter: {counter}</p>
     </div>
   );
