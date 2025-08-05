@@ -4,6 +4,7 @@ import OnlineStatus from "./components/OnlineStatus.tsx";
 import UsersList from "./components/UsersList.tsx";
 import SearchableUsers from "./components/SearchableUsers.tsx";
 import WindowSize from "./components/WindowSize.tsx";
+import GreetingDelay from "./components/GreetingDelay.tsx";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <UsersList />
           <SearchableUsers />
           <WindowSize />
+          <GreetingDelay />
         </div>
       </div>
     </>
