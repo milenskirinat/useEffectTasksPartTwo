@@ -5,6 +5,7 @@ import UsersList from "./components/UsersList.tsx";
 import SearchableUsers from "./components/SearchableUsers.tsx";
 import WindowSize from "./components/WindowSize.tsx";
 import GreetingDelay from "./components/GreetingDelay.tsx";
+import FakePage from "./components/FakePage.tsx";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <SearchableUsers />
           <WindowSize />
           <GreetingDelay />
+          <FakePage />
         </div>
       </div>
     </>
